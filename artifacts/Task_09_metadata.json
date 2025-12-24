@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes1[4]",
+						"name": "_data",
+						"type": "bytes1[4]"
+					}
+				],
+				"name": "getFixedByteArrayAverage",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes1[4]",
+						"name": "_data",
+						"type": "bytes1[4]"
+					}
+				],
+				"name": "getFixedByteArraySum",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tasks/Task_09.sol": "Task_09"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tasks/Task_09.sol": {
+			"keccak256": "0xe62b4f34d834897ba0115997c1b6a85c4b33b9a45bea49aec81c237964c5c0cd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5336171fccc30df058c1681fe7f541db0ee1deb74444c29f2968a4f3ba9db24b",
+				"dweb:/ipfs/QmToSHKZZqtUuT1UkJD9gNFP3A55rY48kpbitxPgcGU8Ge"
+			]
+		}
+	},
+	"version": 1
+}
