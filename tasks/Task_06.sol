@@ -9,4 +9,8 @@ contract Task_06 {
    function getMaxUint256() external pure returns (uint256) {
        return MAX_UINT; // Возвращает максимальное значение
    }
+
+   function getMaxUint8() external pure returns (uint8) {
+        return type(uint8).max; // Максимальное значение для uint8 (255)
+    }
 }
