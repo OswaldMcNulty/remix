@@ -1,7 +1,7 @@
 contract Task_03 {
    struct Person {
        string name;
-       uint8 age;
+       uint8 age;   
    }
 
 
@@ -11,4 +11,10 @@ contract Task_03 {
    function addPerson(string memory _name, uint8 _age) external {
        people.push(Person(_name, _age)); // Добавление новой структуры в массив
    }
+
+   function getUser(uint _index) external view returns (string memory, uint8) {
+        require(_index < people.length, "Index out of bounds");
+        Person storage person = people[_index];
+        return (person.name, person.age);
+    }
 }
